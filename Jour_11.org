@@ -56,4 +56,14 @@ Dans cet exemple, après avoir clignoté six fois, vous auriez 22 pierres. Aprè
 Considérez l'agencement des pierres en face de vous. Combien de pierres aurez-vous après avoir clignoté 25 fois ?
 
 
-Réponse Partie 1 : 
+Réponse Partie 1 : 194782
+
+
+--- Deuxième partie ---
+
+Les historiens prennent certainement beaucoup de temps. Pour être justes, les couloirs infinis sont très grands.
+
+Combien de pierres auriez-vous après avoir clignoté un total de 75 fois ?
+
+
+Réponse Partie 2 : 233007586663131
