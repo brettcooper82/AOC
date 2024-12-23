@@ -75,4 +75,4 @@ Donc, pour ces exemples de listes, le score de similarité à la fin de ce proce
 
 Considérez à nouveau vos listes gauche et droite. Quel est leur score de similarité?
 
-Réponse Partie 2 : 
+Réponse Partie 2 : 26407426
