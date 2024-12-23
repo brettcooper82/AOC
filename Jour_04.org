@@ -1,0 +1,44 @@
+--- Jour 4: Ceres Search ---
+
+"On dirait que le chef n'est pas là. Prochainement. » L'un des Historiens tire un appareil et pousse le seul bouton. Après un bref flash, vous reconnaissez l'intérieur de la station de surveillance de Ceres.
+
+Alors que la recherche du chef continue, un petit Elfe qui vit sur la gare remorque votre chemise; elle aimerait savoir si vous pourriez l'aider avec elle recherche de mots (votre saisie d'énigmes). Elle n'a qu'à trouver un mot : XMAS.
+
+Cette recherche de mots permet aux mots d'être horizontal, vertical, diagonal, écrit en arrière, ou même d'autres mots qui se chevauchent. C'est un peu inhabituel, cependant, car vous n'avez pas seulement besoin de trouver un exemple de XMAS - vous devez trouver tous. Voici quelques façons XMAS peuvent apparaître, lorsque des caractères non pertinents ont été remplacés par .:
+
+..X...
+.SAMX.
+.A..A.
+XMAS.S
+.X....
+
+La recherche de mots sera plutôt remplie de lettres. Par exemple:
+
+MMMSXXMASM
+MSAMXMSMSA
+AMXSXMAAMM
+MSAMASMSMX
+XMASAMXAMM
+XXAMMXXAMA
+SMSMSASXSS
+SAXAMASAAA
+MAMMMXMMMM
+MXMXAXMASX
+
+Dans cette recherche de mots, XMAS se produit un total de 18 fois; voici la même recherche de mots à nouveau, mais où les lettres n'impliquent aucune XMAS ont été remplacées par .:
+
+....XXMAS.
+.SAMXMS...
+...S..A...
+..A.A.MS.X
+XMASAMX.MM
+X.....XA.A
+S.S.S.S.SS
+.A.A.A.A.A
+..M.M.M.MM
+.X.X.XMASX
+
+Regardez la recherche de mots du petit Elf. Combien de fois fait-il XMASapparait-il?
+
+
+Réponse Partie 1 : 
