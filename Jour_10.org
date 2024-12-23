@@ -1,0 +1,70 @@
+--- Jour 10 : Ciel ---
+
+Vous arrivez tous à une installation de production de lave sur une île flottante dans le ciel. Alors que les autres commencent à fouiller le complexe industriel massif, vous sentez un petit nez vous emphasez et regardez vers le bas pour découvrir un renne portant un chapeau dur.
+
+Le renne détient un livre intitulé "Lava Island Hiking Guide". Cependant, quand vous ouvrez le livre, vous découvrez que la plupart d'entre eux semblent avoir été brûlés par la lave. Alors que vous êtes sur le point de vous demander comment vous pouvez aider, le renne vous apporte une carte topographique vide de la zone environnante (votre entrée de casse) et vous regarde avec enthousiasme.
+
+Peut-être pouvez-vous aider à remplir les sentiers de randonnée manquants ?
+
+La carte topographique indique hauteur à chaque position utilisant une échelle à partir de 0 (le plus faible) à 9 (le plus haut niveau). Par exemple:
+
+0123
+1234
+8765
+9876
+
+Sur la base de morceaux non brûlés du livre, vous déterminez qu'un bon sentier de randonnée est aussi longtemps que possible et a une même, pente progressive, pente ascendante. À toutes fins pratiques, cela signifie qu'une Trail de randonnée est une trajectoire qui commence à la hauteur 0, se termine en hauteur 9, et augmente toujours d'une hauteur exactement de 1 à chaque pas. Les sentiers de randonnée n'incluent jamais de marches diagonales - seulement vers le haut, vers le bas, vers la gauche ou vers la droite (du point de vue de la carte).
+
+Vous cherchez de la carte et remarquez que les rennes ont utilement commencé à construire un petit tas de crayons, de marqueurs, de règles, de compas, d'autocollants et d'autres équipements que vous pourriez avoir besoin pour mettre à jour la carte avec des pistes de randonnée.
+
+A Tête de départ est n'importe quelle position qui commence un ou plusieurs sentiers de randonnée - ici, ces positions auront toujours de la hauteur 0. En rassemblant plus de fragments de pages, vous établissez qu'un point de chemin de fer Score est le nombre de 9- positions de hauteur accessibles depuis ce sentier par un sentier de randonnée. Dans l'exemple ci-dessus, le seul point de départ en haut à gauche a un score de 1 parce qu'il peut atteindre un seul 9 (celu-ci en bas à gauche).
+
+Ce point de départ a un score de 2:
+
+...0...
+...1...
+...2...
+6543456
+7.....7
+8.....8
+9.....9
+
+(Les positions marquées . sont des tuiles infranchissables pour simplifier ces exemples; elles n'apparaissent pas sur votre carte topographiques proprement dite.)
+
+Ce point de départ a un score de 4 parce que chaque 9 est accessible par un sentier de randonnée, à l'exception de celui qui est immédiatement à gauche du point de départ du sentier:
+
+..90..9
+...1.98
+...2..7
+6543456
+765.987
+876....
+987....
+
+Cette carte topographique contient deux points de départ; le point de départ du sommet a un score de 1, alors que le point de traînage en bas a un score de 2:
+
+10..9..
+2...8..
+3...7..
+4567654
+...8..3
+...9..2
+.....01
+
+Voici un plus grand exemple :
+
+89010123
+78121874
+87430965
+96549874
+45678903
+32019012
+01329801
+10456732
+
+Cet exemple plus grand a 9 points de vue. Compte tenu des points de vue en lecture, ils ont des scores de 5, 6, 5, 3, 1, 3, 5, 3, et 5. En additionnant ces scores ensemble, la somme des scores de tous les points de départ est 36.
+
+Le renne transporte avec joie un protracteur et l'ajoute au tas. Quelle est la somme des scores de tous les points de vue sur votre carte topographique ?
+
+
+Réponse Partie 1 : 
