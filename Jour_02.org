@@ -58,4 +58,4 @@ Grâce au problème Dampener, 4 les rapports sont en fait coffre-fort-
 
 Mettez à jour votre analyse en manipulant les situations où le problème Dampener peut supprimer un seul niveau des rapports dangereux. Combien de rapports sont maintenant sûrs?
 
-Réponse Partie 2 : 
+Réponse Partie 2 : 311
