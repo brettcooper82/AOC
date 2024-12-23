@@ -67,4 +67,66 @@ Cet exemple plus grand a 9 points de vue. Compte tenu des points de vue en lectu
 Le renne transporte avec joie un protracteur et l'ajoute au tas. Quelle est la somme des scores de tous les points de vue sur votre carte topographique ?
 
 
-Réponse Partie 1 : 
+Réponse Partie 1 : 574
+
+
+--- Deuxième partie ---
+
+Le renne passe quelques minutes à revoir votre carte de sentier de randonnée avant de réaliser quelque chose, disparaître pendant quelques minutes, et enfin revenir avec un autre morceau de papier légèrement effilé.
+
+Le document décrit une deuxième façon de mesurer un point de départ appelé sa note. La note d'un point de départ est le nombre de sentiers de randonnée distincts qui commencent à ce point de départ. Par exemple:
+
+.....0.
+..4321.
+..5..2.
+..6543.
+..7..4.
+..8765.
+..9....
+
+La carte ci-dessus a un seul point de départ; sa note est 3 parce qu'il y a exactement trois sentiers de randonnée distincts qui commencent à cette position:
+
+.....0.   .....0.   .....0.
+..4321.   .....1.   .....1.
+..5....   .....2.   .....2.
+..6....   ..6543.   .....3.
+..7....   ..7....   .....4.
+..8....   ..8....   ..8765.
+..9....   ..9....   ..9....
+
+Voici une carte contenant un seul point de départ avec une note 13:
+
+..90..9
+...1.98
+...2..7
+6543456
+765.987
+876....
+987....
+
+Cette carte contient un seul point de départ avec une note 227 (parce qu'il y a 121 des sentiers de randonnée distincts qui mènent à la 9 sur le bord droit et 106 qui conduisent à la 9 sur le bord inférieur):
+
+012345
+123456
+234567
+345678
+4.6789
+56789.
+
+Voici le plus grand exemple d'avant :
+
+89010123
+78121874
+87430965
+96549874
+45678903
+32019012
+01329801
+10456732
+
+Compte tenu de ses points de départ dans l'ordre de la lecture, ils ont des notes de 20, 24, 10, 4, 1, 4, 5, 8, et 5. La somme de toutes les notes de tête de piste dans cet exemple plus grand de carte topographiques est 81.
+
+Vous n'êtes pas sûr de comment, mais le renne semble avoir créé des petits drapeaux à partir de cure-dents et de morceaux de papier et les utilise pour marquer les traces sur votre carte topographique. Quelle est la somme des notes de tous les points de départ?
+
+
+Réponse Partie 2 : 1238
