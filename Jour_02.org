@@ -34,3 +34,7 @@ Dans l'exemple ci-dessus, les rapports peuvent être trouvés sûrs ou dangereux
 Donc, dans cet exemple, 2 les rapports sont coffre-fort.
 
 Analyser les données inhabituelles des ingénieurs. Combien de rapports sont-ils sûrs?
+
+Réponse Partie 1 : 242
+
+Partie 2 :
