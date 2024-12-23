@@ -80,4 +80,48 @@ Parce que le plus haut A- l'antenne de fréquence se chevauche avec a 0- l'antin
 Calculer l'impact du signal. Combien d'emplacements uniques dans les limites de la carte contiennent un antinoeud ?
 
 
-Réponse Partie 1 : 
+Réponse Partie 1 : 376
+
+
+--- Deuxième partie ---
+
+Surveillant votre épaule pendant que vous travaillez, l'un des Historiens demande si vous avez pris les effets des harmoniques résonantes dans vos calculs.
+
+C'est à toi.
+
+Après la mise à jour de votre modèle, il s'avère qu'un antipne se produit à n'importe quelle position de grille exactement alignée avec au moins deux antennes de la même fréquence, quelle que soit la distance. Cela signifie que certains des nouveaux antinoes se produiront à l'endroit de chaque antenne (à moins que l'antenne soit la seule de sa fréquence).
+
+Donc, ces trois T- les antennes de fréquence créent maintenant de nombreux antinoeuds:
+
+T....#....
+...T......
+.T....#...
+.........#
+..#.......
+..........
+...#......
+..........
+....#.....
+..........
+
+En fait, les trois T- les antennes de fréquence sont toutes exactement conformes à deux antennes, donc elles sont toutes également anti-noeuds. Ceci apporte le nombre total d'antinodes dans l'exemple ci-dessus à 9.
+
+L'exemple original a maintenant 34 antinoeuds, y compris les antinodes qui apparaissent sur chaque antenne:
+
+##....#....#
+.#.#....0...
+..#.#0....#.
+..##...0....
+....0....#..
+.#...#A....#
+...#..#.....
+#....#.#....
+..#.....A...
+....#....A..
+.#........#.
+...#......##
+
+Calculer l'impact du signal à l'aide de ce modèle mis à jour. Combien d'emplacements uniques dans les limites de la carte contiennent un antinoeud ?
+
+
+Réponse Partie 2 : 1352
