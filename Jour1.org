@@ -40,4 +40,6 @@ Pour trouver le distance totale entre la liste de gauche et la liste de droite, 
 
 Vos listes de gauche et de droite réelles contiennent de nombreux identifiants de localisation. Quelle est la distance totale entre vos listes ?
 
-Réponse: 3246517
+Réponse: 3569916
+
+
