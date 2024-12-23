@@ -19,7 +19,7 @@ Les données inhabituelles (votre saisie) se composent de nombreux rapports, un 
 
 Les ingénieurs essaient de déterminer quels rapports sont sûrs. Les systèmes de sûreté du réacteur à nez que tolère les niveaux qui augmentent ou diminuent progressivement. Ainsi, un rapport ne compte comme sûr que si les deux éléments suivants sont vrais :
 
-    Les niveaux augmentent ou all increasingdiminuent tous.
+    Les niveaux augmentent ou diminuent tous.
     Deux niveaux adjacents diffèrent d'au moins un et d'au plus trois.
 
 Dans l'exemple ci-dessus, les rapports peuvent être trouvés sûrs ou dangereux en vérifiant ces règles:
