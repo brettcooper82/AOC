@@ -1,0 +1,59 @@
+--- Jour 11 : Plutoniens Pebbles ---
+
+L'ancienne civilisation de Pluton était connue pour sa capacité à manipuler l'espace-temps, et tandis que les Historiens explorent leurs couloirs infinis, vous avez remarqué un étrange ensemble de pierres qui défient la physique.
+
+À première vue, elles ressemblent à des pierres normales : elles sont disposées en une ligne parfaitement droite, et chaque pierre a un nombre gravé dessus.
+
+L'étrange partie, c'est que chaque fois que vous clignez des yeux, les pierres changent.
+
+Parfois, le nombre gravé sur une pierre change. D'autres fois, une pierre pourrait se fendre en deux, ce qui fait que toutes les autres pierres se déplacent un peu pour faire de la place dans leur ligne parfaitement droite.
+
+Au fur et à mesure que vous les observez pendant un certain temps, vous trouvez que les pierres ont un comportement constant. Chaque fois que vous clignez, les pierres changent chacune simultanément selon la première règle applicable dans cette liste:
+
+    Si la pierre est gravée du nombre 0, il est remplacé par une pierre gravée du nombre 1.
+    Si la pierre est gravée d'un nombre qui a un même nombre de chiffres, il est remplacé par deux pierres. La moitié gauche des chiffres sont gravés sur la nouvelle pierre gauche, et la moitié droite des chiffres sont gravés sur la nouvelle pierre droite. (Les nouveaux nombres ne gardent pas les zéros de tête supplémentaires: 1000 deviendrait des pierres 10 et 0.)
+    Si aucune des autres règles ne s'applique, la pierre est remplacée par une nouvelle pierre; le nombre de la vieille pierre multiplié par 2024 est gravé sur la nouvelle pierre.
+
+Peu importe comment les pierres changent, leur ordre est préservé, et ils restent sur leur ligne parfaitement droite.
+
+Comment les pierres évolueront-elles si vous continuez à clignoter ? Vous prenez note du nombre gravé sur chaque pierre dans la ligne (votre jeu d'intervention en jeu).
+
+Si vous avez un arrangement de cinq pierres gravées avec les numéros 0 1 10 99 999 Et vous clignez une fois, les pierres se transforment comme suit:
+
+    La première pierre, 0, devient une pierre marquée 1.
+    La deuxième pierre, 1, est multiplié par 2024 pour devenir 2024.
+    La troisième pierre, 10, est scindée en une pierre marquée 1 suivie d'une pierre marquée 0.
+    La quatrième pierre, 99, est scindée en deux pierres marquées 9.
+    La cinquième pierre, 999, est remplacé par une pierre marquée 2021976.
+
+Donc, après avoir cligné une fois, vos cinq pierres deviendraient un arrangement de sept pierres gravées avec les nombres 1 2024 1 0 9 9 2021976.
+
+Voici un exemple plus long:
+
+Initial arrangement:
+125 17
+
+After 1 blink:
+253000 1 7
+
+After 2 blinks:
+253 0 2024 14168
+
+After 3 blinks:
+512072 1 20 24 28676032
+
+After 4 blinks:
+512 72 2024 2 0 2 4 2867 6032
+
+After 5 blinks:
+1036288 7 2 20 24 4048 1 4048 8096 28 67 60 32
+
+After 6 blinks:
+2097446912 14168 4048 2 0 2 4 40 48 2024 40 48 80 96 2 8 6 7 6 0 3 2
+
+Dans cet exemple, après avoir clignoté six fois, vous auriez 22 pierres. Après avoir cligné 25 fois, vous auriez 55312 Des pierres.
+
+Considérez l'agencement des pierres en face de vous. Combien de pierres aurez-vous après avoir clignoté 25 fois ?
+
+
+Réponse Partie 1 : 
