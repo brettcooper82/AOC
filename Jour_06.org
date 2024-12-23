@@ -96,4 +96,102 @@ Dans cet exemple, le garde se rendra 41 des positions distinctes sur votre carte
 Prévoir le chemin de la garde. Combien de positions distinctes le garde va-t-il visiter avant de quitter la zone cartographiée?
 
 
-Réponse Partie 1 : 
+Réponse Partie 1 : 5444
+
+
+--- Deuxième partie ---
+
+Pendant que les Historiens commencent à travailler sur la route de la patrouille du garde, vous empruntez leur appareil sophistiqué et sortez du laboratoire. De la sécurité d'un placard d'approvisionnement, vous voyagez dans le temps au cours des derniers mois et enregistrez l'état de nuit du poste de garde du laboratoire sur les murs du placard.
+
+De retour après ce qui ne semble que quelques secondes aux Historiens, ils expliquent que la zone de patrouille du garde est tout simplement trop grande pour qu'ils fouillent en toute sécurité le laboratoire sans se faire attraper.
+
+Heureusement, ils sont à peu près sûrs que l'ajout d'une seule nouvelle obstruction ne provoquera pas de paradoxe dans le temps. Ils aimeraient placer la nouvelle obstruction de telle sorte que le garde sera coincé dans une boucle, rendant le reste du laboratoire sûr pour la recherche.
+
+Pour avoir le moindre risque de créer un paradoxe temporel, les Historiens aimeraient connaître toutes les positions possibles pour une telle obstruction. La nouvelle obstruction ne peut pas être placée à la position de départ du garde - le garde est là en ce moment et s'en apercerait.
+
+Dans l'exemple ci-dessus, il n'y a que 6 différentes positions où une nouvelle obstruction provoquerait un coincé de la garde dans une boucle. Les diagrammes de ces six situations utilisent O marquer la nouvelle obstruction, | montrer une position où la garde se déplace vers le haut/bas, - pour montrer une position où le garde se déplace à gauche/droite, et + pour montrer une position où la garde se déplace à la fois vers le haut/vers le bas et vers la gauche/droite.
+
+Première option, mettre une presse à imprimer à côté de la position de départ du garde:
+
+....#.....
+....+---+#
+....|...|.
+..#.|...|.
+....|..#|.
+....|...|.
+.#.O^---+.
+........#.
+#.........
+......#...
+
+Option 2, mettre une pile de prototypes de costumes défaillants dans le quadrant inférieur droit de la zone cartographiée:
+
+....#.....
+....+---+#
+....|...|.
+..#.|...|.
+..+-+-+#|.
+..|.|.|.|.
+.#+-^-+-+.
+......O.#.
+#.........
+......#...
+
+Option 3, mettez une caisse en tissu prototype de trhorée à proximité du bureau debout dans le quadrant inférieur droit:
+
+....#.....
+....+---+#
+....|...|.
+..#.|...|.
+..+-+-+#|.
+..|.|.|.|.
+.#+-^-+-+.
+.+----+O#.
+#+----+...
+......#...
+
+Option 4, mettre un rétroencabulaire alchimique près du coin inférieur gauche:
+
+....#.....
+....+---+#
+....|...|.
+..#.|...|.
+..+-+-+#|.
+..|.|.|.|.
+.#+-^-+-+.
+..|...|.#.
+#O+---+...
+......#...
+
+L'option 5, placez le rétroencabulateur alchimique un peu à droite:
+
+....#.....
+....+---+#
+....|...|.
+..#.|...|.
+..+-+-+#|.
+..|.|.|.|.
+.#+-^-+-+.
+....|.|.#.
+#..O+-+...
+......#...
+
+Option 6, mettre un réservoir de colle souveraine juste à côté du réservoir de solvant universel:
+
+....#.....
+....+---+#
+....|...|.
+..#.|...|.
+..+-+-+#|.
+..|.|.|.|.
+.#+-^-+-+.
+.+----++#.
+#+----++..
+......#O..
+
+Peu importe ce que vous choisissez d'utiliser comme un obstacle tant que vous et les Historiens pouvez le mettre en place sans que le gardien s'en aperce le fait. L'important est d'avoir assez d'options pour que vous puissiez en trouver une qui minimise les paradoxes du temps, et dans cet exemple, il y a 6 différentes positions que vous pourriez choisir.
+
+Vous devez mettre le garde coincé dans une boucle en ajoutant une seule nouvelle obstruction. Combien de positions différentes pourriez-vous choisir pour cette obstruction ?
+
+
+Réponse Partie 2 : 1946
