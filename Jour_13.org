@@ -49,4 +49,35 @@ Vous estimez que chaque bouton ne devrait pas être pressé plus que fois de gag
 Découvrez comment gagner autant de prix que possible. Quels sont les quelques-uns que vous auriez à dépenser pour gagner tous les prix possibles?
 
 
-Réponse Partie 1 : 
+Réponse Partie 1 : 26299
+
+
+--- Deuxième partie ---
+
+Au fur et à mesure que vous gagnez le premier prix, vous découvrez que la griffe est nulle part proche de l'endroit où vous vous attendiez. En raison d'une erreur de conversion unitaire dans vos mesures, la position de chaque prix est en fait 10000000000000 plus élevé sur les deux X et Y axe
+
+Ajouter 10000000000000 à la X et Y position de chaque prix. Après avoir apporté ce changement, l'exemple ci-dessus ressemblerait maintenant à ceci :
+
+Button A: X+94, Y+34
+Button B: X+22, Y+67
+Prize: X=10000000008400, Y=10000000005400
+
+Button A: X+26, Y+66
+Button B: X+67, Y+21
+Prize: X=10000000012748, Y=10000000012176
+
+Button A: X+17, Y+86
+Button B: X+84, Y+37
+Prize: X=10000000007870, Y=10000000006450
+
+Button A: X+69, Y+23
+Button B: X+27, Y+71
+Prize: X=10000000018641, Y=10000000010279
+
+Or, il n'est possible de gagner qu'un prix sur les deuxième et quatrième machines à griffes. Malheureusement, il faudra beaucoup plus que 100pression pour le faire.
+
+En utilisant les coordonnées du prix corrigée, trouver comment gagner autant de prix que possible. Quels sont les quelques-uns que vous auriez à dépenser pour gagner tous les prix possibles?
+
+
+
+Réponse Partie 2 : 107824497933339
