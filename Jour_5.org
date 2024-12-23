@@ -78,4 +78,22 @@ Bien sûr, vous aurez besoin d'être prudent: la liste réelle des règles de co
 Déterminer quelles mises à jour sont déjà dans l'ordre correct. Qu'obtenez-vous si vous additionnez le numéro de page du milieu à partir de ces mises à jour correctement ordonnées ?
 
 
-Réponse Partie 1 : 
+Réponse Partie 1 : 7198
+
+
+--- Deuxième partie ---
+
+Alors que les Elfes travaillent à imprimer les mises à jour correctement ordonnées, vous avez un peu de temps pour réparer le reste d'entre eux.
+
+Pour chacune des mises à jour mal ordonnées, utilisez les règles de commande de page pour mettre les numéros de page dans le bon ordre. Pour l'exemple ci-dessus, voici les trois mises à jour mal ordonnées et leurs commandes correctes:
+
+    75,97,47,61,53 devient 97,75,47,61,53.
+    61,13,29 devient 61,29,13.
+    97,13,75,29,47 devient 97,75,47,29,13.
+
+Après prise Seules les mises à jour mal ordonnées et en les ordonnant correctement, leurs numéros de page du milieu sont 47, 29, et 47. En les additionnant ensemble, il produit 123.
+
+Trouvez les mises à jour qui ne sont pas dans le bon ordre. Qu'obtenez-vous si vous additionnez les numéros de page du milieu après avoir correctement commandé ces mises à jour ?
+
+
+Réponse Partie 2 : 4230
