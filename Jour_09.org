@@ -1,0 +1,55 @@
+--- Jour 9 : Fragmenteur de disque ---
+
+Une autre pression sur le bouton vous laisse dans les couloirs familiers de quelques amphipods amicaux. C'est une bonne chose que vous ayez chacun d'une manière ou d'une autre votre mini-sous-marin personnel. Les historiens s'enfuyent à la recherche du chef, principalement en poussant directement dans les murs.
+
+Alors que les Historiens découvrent rapidement comment piloter ces choses, vous remarquez un amphipode dans le coin qui lutte avec son ordinateur. Il essaie de créer un espace libre plus contigu en compactant tous les fichiers, mais son programme ne fonctionne pas ; vous offrez de l'aide.
+
+Il vous montre la carte du disque (votre entrée de puzzle) qu'il a déjà générée. Par exemple:
+
+2333133121414131402
+
+La carte disque utilise un format dense pour représenter la présentation des fichiers et l'espace libre sur le disque. Les chiffres alternent entre l'indication de la longueur d'un fichier et la longueur de l'espace libre.
+
+Donc, une carte de disque comme 12345 représenterait un fichier à un bloc, deux blocs d'espace libre, un fichier de trois blocs, quatre blocs d'espace libre, puis un fichier à cinq blocs. Une carte à disque comme 90909 représenterait trois fichiers à neuf blocs d'une ligne (sans espace libre entre eux).
+
+Chaque fichier sur disque comporte également un Numéro d'identification sur la base de l'ordre des fichiers tel qu'ils apparaissent avant ils sont réorganisés, en commençant par ID 0. Donc, la carte du disque 12345 a trois fichiers: un fichier à un bloc avec ID 0, un fichier à trois blocs avec ID 1, et un fichier cinq blocs avec ID 2. En utilisant un caractère pour chaque bloc où les chiffres sont l'ID de fichier et . est libre de l'espace, la carte du disque 12345 représente ces blocs individuels:
+
+0..111....22222
+
+Le premier exemple ci-dessus, 2333133121414131402, représente ces blocs individuels:
+
+00...111...2...333.44.5555.6666.777.888899
+
+L'amphipdéo souhaiterait déplacer les blocs de fichiers un à la fois de l'extrémité du disque au bloc d'espace libre le plus à gauche (jusqu'à ce qu'il n'y ait plus de discontinuités entre les blocs de fichiers). Pour la carte du disque 12345, le processus ressemble à ceci:
+
+0..111....22222
+02.111....2222.
+022111....222..
+0221112...22...
+02211122..2....
+022111222......
+
+Le premier exemple nécessite quelques étapes supplémentaires:
+
+00...111...2...333.44.5555.6666.777.888899
+009..111...2...333.44.5555.6666.777.88889.
+0099.111...2...333.44.5555.6666.777.8888..
+00998111...2...333.44.5555.6666.777.888...
+009981118..2...333.44.5555.6666.777.88....
+0099811188.2...333.44.5555.6666.777.8.....
+009981118882...333.44.5555.6666.777.......
+0099811188827..333.44.5555.6666.77........
+00998111888277.333.44.5555.6666.7.........
+009981118882777333.44.5555.6666...........
+009981118882777333644.5555.666............
+00998111888277733364465555.66.............
+0099811188827773336446555566..............
+
+La dernière étape de ce processus de prise en compte du fichier consiste à mettre à jour le somme de contrôle de système de fichiers. Pour calculer la somme de contrôle, additionnez le résultat de la multiplication de la position de chacun de ces blocs avec le numéro d'identification du fichier qu'il contient. Le bloc le plus à gauche est en position 0. Si un bloc contient de l'espace libre, sautez-le à la place.
+
+Poursuivant le premier exemple, la position des premiers blocs multipliée par son numéro d'identification de fichier sont 0 * 0 = 0, 1 * 0 = 0, 2 * 9 = 18, 3 * 9 = 27, 4 * 8 = 32, et ainsi de suite. Dans cet example, la somme des chèques est la somme de ceux-ci, 1928.
+
+Compacter le disque dur de l'amphipode en utilisant le processus qu'il a demandé. Qu'est-ce que la somme de contrôle du système de fichiers résultant? (Soyez soigne la copie/collage de l'entrée pour ce puzzle; c'est une ligne unique, très longue.)
+
+
+Réponse Partie 1 : 
