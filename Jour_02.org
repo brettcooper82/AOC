@@ -37,4 +37,25 @@ Analyser les données inhabituelles des ingénieurs. Combien de rapports sont-il
 
 Réponse Partie 1 : 242
 
-Partie 2 :
+--- Deuxième partie ---
+
+Les ingénieurs sont surpris par le faible nombre de rapports sûrs jusqu'à ce qu'ils réalisent qu'ils ont oublié de vous parler du problème de l'amortisseur.
+
+Le problème Dampener est un module monté sur réacteur qui permet aux systèmes de sûreté du réacteur de tolère un seul mauvais niveau dans ce qui serait autrement un rapport sûr. C'est comme si le mauvais niveau ne s'était jamais produit.
+
+Maintenant, les mêmes règles s'appliquent qu'auparavant, sauf si retirer un seul niveau d'un rapport dangereux le rendrait sûr, le rapport compte plutôt comme étant sûr.
+
+Une plus grande partie des rapports de l'exemple ci-dessus sont désormais sûrs:
+
+    7 6 4 2 1: Sûreté sans supprimer aucun niveau.
+    1 2 7 8 9: Insalubre quel que soit le niveau supprimé.
+    9 7 6 2 1: Insalubre quel que soit le niveau supprimé.
+    1 3 2 4 5: Sûreté en supprimant le deuxième niveau, 3.
+    8 6 4 4 1: Sûreté en supprimant le troisième niveau, 4.
+    1 3 6 7 9: Sûreté sans supprimer aucun niveau.
+
+Grâce au problème Dampener, 4 les rapports sont en fait coffre-fort-
+
+Mettez à jour votre analyse en manipulant les situations où le problème Dampener peut supprimer un seul niveau des rapports dangereux. Combien de rapports sont maintenant sûrs?
+
+Réponse Partie 2 : 
