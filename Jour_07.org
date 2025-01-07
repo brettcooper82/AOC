@@ -1,4 +1,4 @@
---- Jour 7 : Réparation de ponts ---
+* Jour 7 : Réparation de ponts 
 
 Les Historiens vous emmènent à un pont à corde familier sur une rivière au milieu d'une jungle. Le chef n'est pas de ce côté du pont, cependant; peut-être est-il de l'autre côté?
 
@@ -33,10 +33,10 @@ Les ingénieurs ont juste besoin de la Résultat total de l'étalonnage, qui est
 Déterminer quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total?
 
 
-Réponse Partie 1 : 5512534574980
+** Réponse Partie 1 : 5512534574980
 
 
---- Deuxième partie ---
+* Deuxième partie 
 
 Les ingénieurs semblent concernés; le résultat d'étalonnage total que vous leur avez donné n'est nulle part proche d'être dans les tolérances de sécurité. Juste à ce moment-là, vous repérez votre erreur : des éléphants bien cachés détiennent un troisième type d'opérateur.
 
@@ -53,4 +53,4 @@ Ajout des six valeurs d'essai (les trois qui pourraient être faites avant uniqu
 En utilisant votre nouvelle connaissance des cachettes d'éléphants, déterminez quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total?
 
 
-Réponse Partie 2 : 328790210468594
+** Réponse Partie 2 : 328790210468594
