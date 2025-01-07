@@ -1,4 +1,4 @@
-*--- Jour 15: Entrepôt Malheurs ---
+* Jour 15: Entrepôt Malheurs 
 
 Vous avez l'air de retour à l'intérieur de votre propre mini-sous-marin. Chaque historien conduit son mini-sous-marin dans une direction différente; peut-être le chef a-t-il son propre sous-marin ici quelque part aussi bien?
 
@@ -241,10 +241,10 @@ Le poisson de lanterne aimerait savoir somme des coordonnées GPS de toutes les 
 Prévoir le mouvement du robot et des boîtes dans l'entrepôt. Après le déplacement du robot, quelle est la somme des coordonnées GPS de toutes les boîtes ?
 
 
-**Réponse Partie 1 : 1552879
+** Réponse Partie 1 : 1552879
 
 
-*--- Deuxième partie ---
+* Deuxième partie 
 
 Le poisson de la lanterne utilise vos informations pour trouver un moment sûr pour nager et éteindre le robot dysfonctionnement. Au moment où ils commencent à préparer un festival en votre honneur, les rapports commencent à arriver dans le fait que le robot d'un deuxième entrepôt est également défaillant.
 
@@ -418,4 +418,4 @@ La somme des coordonnées GPS de ces canes est 9021.
 Prédire le mouvement du robot et des boîtes dans ce nouvel entrepôt à plus grande échelle. Quelle est la somme des coordonnées GPS finales de toutes les cases?
 
 
-**Réponse Partie 2 : 1561175
+** Réponse Partie 2 : 1561175
