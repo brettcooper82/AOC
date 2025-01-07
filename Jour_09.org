@@ -1,4 +1,4 @@
---- Jour 9 : Fragmenteur de disque ---
+* Jour 9 : Fragmenteur de disque 
 
 Une autre pression sur le bouton vous laisse dans les couloirs familiers de quelques amphipods amicaux. C'est une bonne chose que vous ayez chacun d'une manière ou d'une autre votre mini-sous-marin personnel. Les historiens s'enfuyent à la recherche du chef, principalement en poussant directement dans les murs.
 
@@ -52,10 +52,10 @@ Poursuivant le premier exemple, la position des premiers blocs multipliée par s
 Compacter le disque dur de l'amphipode en utilisant le processus qu'il a demandé. Qu'est-ce que la somme de contrôle du système de fichiers résultant? (Soyez soigne la copie/collage de l'entrée pour ce puzzle; c'est une ligne unique, très longue.)
 
 
-Réponse Partie 1 : 6242766523059
+** Réponse Partie 1 : 6242766523059
 
 
---- Deuxième partie ---
+* Deuxième partie 
 
 À l'achèvement, deux choses deviennent immédiatement claires. Tout d'abord, le disque a certainement beaucoup plus d'espace libre contigu, tout comme l'amphipdé l'espérait. Deuxièmement, l'ordinateur fonctionne beaucoup plus lentement. Peut-être qu'introduire toute cette fragmentation du système de fichiers était une mauvaise idée ?
 
@@ -76,4 +76,4 @@ Le processus de mise à jour de la somme de contrôle du système de fichiers es
 Commencez, compactez maintenant le disque dur de l'amphipode en utilisant cette nouvelle méthode à la place. Qu'est-ce que la somme de contrôle du système de fichiers résultant?
 
 
-Réponse Partie 2 : 6272188244509
+** Réponse Partie 2 : 6272188244509
