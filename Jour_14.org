@@ -1,4 +1,4 @@
---- Jour 14: Redoubt de salle ---
+* Jour 14: Redoubt de salle 
 
 L'un des historiens a besoin d'utiliser la salle de bains; heureusement, vous savez, il y a une salle de bains près d'un endroit non visité sur leur liste, et donc vous êtes tous rapidement téléportés directement dans le hall du siège de Pâque Bunny.
 
@@ -120,14 +120,14 @@ Dans cet example, les quadrants contiennent 1, 3, 4, et 1 robot. La multiplicati
 Prédire le mouvement des robots dans votre liste dans un espace qui est 101 carreaux larges et 103 carreaux de grande taille. Quel sera le facteur de sécurité après l'expiration d'une centaine de secondes précises?
 
 
-Réponse Partie 1 : 208437768
+** Réponse Partie 1 : 208437768
 
 
---- Deuxième partie ---
+* Deuxième partie 
 
 Pendant la pause de la salle de bains, quelqu'un remarque que ces robots semblent terriblement similaires à ceux construits et utilisés au pôle Nord. S'ils sont le même type de robots, ils devraient avoir un œuf de Pâques codé en dur : très rarement, la plupart des robots devraient s'arranger en une image d'un sapin.
 
 Quel est le plus petit nombre de secondes qui doit s'écouler pour que les robots affichent l'œuf de Pâques ?
 
 
-Réponse Partie 2 : 7492
+** Réponse Partie 2 : 7492
