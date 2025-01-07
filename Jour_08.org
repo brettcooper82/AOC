@@ -1,4 +1,4 @@
---- Jour 8: Collinarité résonnante ---
+* Jour 8: Collinarité résonnante 
 
 Vous vous retrouvez sur le toit d'une installation de lapin de Pâques haut àcresses.
 
@@ -80,10 +80,10 @@ Parce que le plus haut A- l'antenne de fréquence se chevauche avec a 0- l'antin
 Calculer l'impact du signal. Combien d'emplacements uniques dans les limites de la carte contiennent un antinoeud ?
 
 
-Réponse Partie 1 : 376
+** Réponse Partie 1 : 376
 
 
---- Deuxième partie ---
+* Deuxième partie 
 
 Surveillant votre épaule pendant que vous travaillez, l'un des Historiens demande si vous avez pris les effets des harmoniques résonantes dans vos calculs.
 
@@ -124,4 +124,4 @@ L'exemple original a maintenant 34 antinoeuds, y compris les antinodes qui appar
 Calculer l'impact du signal à l'aide de ce modèle mis à jour. Combien d'emplacements uniques dans les limites de la carte contiennent un antinoeud ?
 
 
-Réponse Partie 2 : 1352
+** Réponse Partie 2 : 1352
