@@ -1,4 +1,4 @@
---- Jour 2: Rapports Red-Nosed ---
+* Jour 2: Rapports Red-Nosed 
 
 Heureusement, le premier endroit où les Historiens veulent être recherchés n'est pas une longue promenade du bureau de l'historien en chef.
 
@@ -35,9 +35,9 @@ Donc, dans cet exemple, 2 les rapports sont coffre-fort.
 
 Analyser les données inhabituelles des ingénieurs. Combien de rapports sont-ils sûrs?
 
-Réponse Partie 1 : 242
+** Réponse Partie 1 : 242
 
---- Deuxième partie ---
+* Deuxième partie 
 
 Les ingénieurs sont surpris par le faible nombre de rapports sûrs jusqu'à ce qu'ils réalisent qu'ils ont oublié de vous parler du problème de l'amortisseur.
 
@@ -58,4 +58,4 @@ Grâce au problème Dampener, 4 les rapports sont en fait coffre-fort-
 
 Mettez à jour votre analyse en manipulant les situations où le problème Dampener peut supprimer un seul niveau des rapports dangereux. Combien de rapports sont maintenant sûrs?
 
-Réponse Partie 2 : 311
+** Réponse Partie 2 : 311
