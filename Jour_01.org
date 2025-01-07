@@ -1,4 +1,4 @@
-Jour 1: Hystérie historien ---
+* Jour 1: Hystérie historien 
 
 L'Historien en chef est toujours présent pour le grand sleigh, mais personne ne l'a vu depuis des mois. Dernier jour, il se rendait dans des endroits qui sont historiquement importants pour le pôle Nord; un groupe d'historiens aînés vous a demandé de les accompagner en vérétant les endroits où ils pensent qu'il était le plus susceptible de visiter.
 
@@ -40,10 +40,10 @@ Pour trouver le distance totale entre la liste de gauche et la liste de droite, 
 
 Vos listes de gauche et de droite réelles contiennent de nombreux identifiants de localisation. Quelle est la distance totale entre vos listes ?
 
-Réponse: 3569916
+** Réponse: 3569916
 
 
---- Deuxième partie ---
+* Deuxième partie 
 
 Votre analyse n'a confirmé que ce que tout le monde craignait: les deux listes d'identifications de localisation sont en effet très différentes.
 
@@ -75,4 +75,4 @@ Donc, pour ces exemples de listes, le score de similarité à la fin de ce proce
 
 Considérez à nouveau vos listes gauche et droite. Quel est leur score de similarité?
 
-Réponse Partie 2 : 26407426
+** Réponse Partie 2 : 26407426
