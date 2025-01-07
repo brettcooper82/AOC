@@ -1,4 +1,4 @@
---- Jour 15: Entrepôt Malheurs ---
+*--- Jour 15: Entrepôt Malheurs ---
 
 Vous avez l'air de retour à l'intérieur de votre propre mini-sous-marin. Chaque historien conduit son mini-sous-marin dans une direction différente; peut-être le chef a-t-il son propre sous-marin ici quelque part aussi bien?
 
@@ -241,4 +241,181 @@ Le poisson de lanterne aimerait savoir somme des coordonnées GPS de toutes les 
 Prévoir le mouvement du robot et des boîtes dans l'entrepôt. Après le déplacement du robot, quelle est la somme des coordonnées GPS de toutes les boîtes ?
 
 
-Réponse Partie 1 : 
+**Réponse Partie 1 : 1552879
+
+
+*--- Deuxième partie ---
+
+Le poisson de la lanterne utilise vos informations pour trouver un moment sûr pour nager et éteindre le robot dysfonctionnement. Au moment où ils commencent à préparer un festival en votre honneur, les rapports commencent à arriver dans le fait que le robot d'un deuxième entrepôt est également défaillant.
+
+L'agencement de cet entrepôt est étonnamment similaire à celui que vous venez d'aider. Il y a une différence clé : tout sauf le robot est deux fois plus large. La liste des mouvements du robot ne change pas.
+
+Pour obtenir la carte plus large de l'entrepôt, commencez par votre carte originale et, pour chaque carrelage, apportez les modifications suivantes :
+
+    Si la tuile est #, la nouvelle carte contient ## à la place.
+    Si la tuile est O, la nouvelle carte contient [] à la place.
+    Si la tuile est ., la nouvelle carte contient .. à la place.
+    Si la tuile est @, la nouvelle carte contient @. à la place.
+
+Cela permettra de produire une nouvelle carte d'entrepôt qui est deux fois plus large et avec des boîtes larges qui sont représentées par []. (Le robot ne change pas de taille.)
+
+Le plus grand exemple d'avant pourrait maintenant ressembler à ceci:
+
+####################
+##....[]....[]..[]##
+##............[]..##
+##..[][]....[]..[]##
+##....[]@.....[]..##
+##[]##....[]......##
+##[]....[]....[]..##
+##..[][]..[]..[][]##
+##........[]......##
+####################
+
+Parce que les boîtes sont maintenant deux fois plus larges mais que le robot est toujours de la même taille et de la même vitesse, les boîtes peuvent être alignées de telle sorte qu'elles poussent directement deux autres boîtes à la fois. Par exemple, considérons cette situation :
+
+#######
+#...#.#
+#.....#
+#..OO@#
+#..O..#
+#.....#
+#######
+
+<vv<<^^<<^^
+
+Après avoir correctement redimensionné cette carte, le robot pousserait autour de ces cases comme suit:
+
+Initial state:
+##############
+##......##..##
+##..........##
+##....[][]@.##
+##....[]....##
+##..........##
+##############
+
+Move <:
+##############
+##......##..##
+##..........##
+##...[][]@..##
+##....[]....##
+##..........##
+##############
+
+Move v:
+##############
+##......##..##
+##..........##
+##...[][]...##
+##....[].@..##
+##..........##
+##############
+
+Move v:
+##############
+##......##..##
+##..........##
+##...[][]...##
+##....[]....##
+##.......@..##
+##############
+
+Move <:
+##############
+##......##..##
+##..........##
+##...[][]...##
+##....[]....##
+##......@...##
+##############
+
+Move <:
+##############
+##......##..##
+##..........##
+##...[][]...##
+##....[]....##
+##.....@....##
+##############
+
+Move ^:
+##############
+##......##..##
+##...[][]...##
+##....[]....##
+##.....@....##
+##..........##
+##############
+
+Move ^:
+##############
+##......##..##
+##...[][]...##
+##....[]....##
+##.....@....##
+##..........##
+##############
+
+Move <:
+##############
+##......##..##
+##...[][]...##
+##....[]....##
+##....@.....##
+##..........##
+##############
+
+Move <:
+##############
+##......##..##
+##...[][]...##
+##....[]....##
+##...@......##
+##..........##
+##############
+
+Move ^:
+##############
+##......##..##
+##...[][]...##
+##...@[]....##
+##..........##
+##..........##
+##############
+
+Move ^:
+##############
+##...[].##..##
+##...@.[]...##
+##....[]....##
+##..........##
+##..........##
+##############
+
+Cet entrepôt utilise également le GPS pour localiser les boîtes. Pour ces plus grandes cases, on mesure les distances du bord de la carte au bord le plus proche du boîtier considéré. Donc, l'encadré ci-dessous a une distance de 1 à partir du bord supérieur de la carte et 5 à partir du bord gauche de la carte, ce qui donne une coordonnée GPS de 100 * 1 + 5 = 105.
+
+##########
+##...[]...
+##........
+
+Dans la version à plus grande échelle de l'exemple le plus grand d'en haut, après que le robot a terminé tous ses mouvements, l'entrepôt ressemblerait à ceci:
+
+####################
+##[].......[].[][]##
+##[]...........[].##
+##[]........[][][]##
+##[]......[]....[]##
+##..##......[]....##
+##..[]............##
+##..@......[].[][]##
+##......[][]..[]..##
+####################
+
+La somme des coordonnées GPS de ces canes est 9021.
+
+Prédire le mouvement du robot et des boîtes dans ce nouvel entrepôt à plus grande échelle. Quelle est la somme des coordonnées GPS finales de toutes les cases?
+
+
+**Réponse Partie 2 : 1561175
