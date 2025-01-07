@@ -18,7 +18,7 @@ Seules les quatre sections en surbrillance sont réelles. mul instructions. L'aj
 
 Scanner la mémoire corrompue pour non corrompu mul instructions. Qu'obtenez-vous si vous additionnez tous les résultats des multiplications ?
 
-**Réponse Partie 1 : 173731097
+** Réponse Partie 1 : 173731097
 
 * Deuxième partie 
 
