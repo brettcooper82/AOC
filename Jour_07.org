@@ -33,4 +33,24 @@ Les ingénieurs ont juste besoin de la Résultat total de l'étalonnage, qui est
 Déterminer quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total?
 
 
-Réponse Partie 1 : 
+Réponse Partie 1 : 5512534574980
+
+
+--- Deuxième partie ---
+
+Les ingénieurs semblent concernés; le résultat d'étalonnage total que vous leur avez donné n'est nulle part proche d'être dans les tolérances de sécurité. Juste à ce moment-là, vous repérez votre erreur : des éléphants bien cachés détiennent un troisième type d'opérateur.
+
+Le concaténation opérateur (||) combine les chiffres de ses entrées gauche et droite en un seul nombre. Par exemple, 12 || 345 deviendrait 12345. Tous les opérateurs sont encore évalués de gauche à droite.
+
+Maintenant, à l'exception des trois équations qui pourraient être rendues vraies en utilisant uniquement l'addition et la multiplication, l'exemple ci-dessus a trois autres équations qui peuvent être rendues vraies en insérant des opérateurs:
+
+    156: 15 6 peuvent être réalisés par une seule concaténation: 15 || 6 = 156.
+    7290: 6 8 6 15 peut être réalisé en utilisant 6 * 8 || 6 * 15.
+    192: 17 8 14 peut être réalisé en utilisant 17 || 8 + 14.
+
+Ajout des six valeurs d'essai (les trois qui pourraient être faites avant uniquement l'utilisation + et * plus les trois nouveaux qui peuvent maintenant être fabriqués en utilisant également ||) produit la nouvelle Résultat total de l'étalonnage de 11387.
+
+En utilisant votre nouvelle connaissance des cachettes d'éléphants, déterminez quelles équations pourraient être vraies. Quel est leur résultat d'étalonnage total?
+
+
+Réponse Partie 2 : 328790210468594
