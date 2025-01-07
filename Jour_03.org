@@ -1,4 +1,4 @@
---- Jour 3: Mll It Over ---
+* Jour 3: Mll It Over 
 
 "Nos ordinateurs ont des problèmes, donc je n'ai aucune idée si nous avons des Historiens en chef en stock. Vous êtes les bienvenus pour vérifier l'entrepôt », explique le commerçant légèrement bouillonné au magasin de location de toboggan du pôle Nord. Les historiens partent jeter un coup d'oeil.
 
@@ -18,9 +18,9 @@ Seules les quatre sections en surbrillance sont réelles. mul instructions. L'aj
 
 Scanner la mémoire corrompue pour non corrompu mul instructions. Qu'obtenez-vous si vous additionnez tous les résultats des multiplications ?
 
-Réponse Partie 1 : 173731097
+**Réponse Partie 1 : 173731097
 
---- Deuxième partie ---
+* Deuxième partie 
 
 Au fur et à mesure que vous scannez la mémoire corrompue, vous remarquez que certaines des déclarations conditionnelles sont également encore intactes. Si vous gérez certaines des déclarations conditionnelles non corrompues du programme, vous pourriez être en mesure d'obtenir un résultat encore plus précis.
 
@@ -41,4 +41,4 @@ Cette fois, la somme des résultats est 48 (2*4 + 8*5).
 
 Mandonner les nouvelles instructions; qu'obtenez-vous si vous additionnez tous les résultats des simples multiplications autorisées?
 
-Réponse Partie 2 : 93729253
+** Réponse Partie 2 : 93729253
