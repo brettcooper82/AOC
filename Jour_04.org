@@ -1,4 +1,4 @@
---- Jour 4: Ceres Search ---
+* Jour 4: Ceres Search 
 
 "On dirait que le chef n'est pas là. Prochainement. » L'un des Historiens tire un appareil et pousse le seul bouton. Après un bref flash, vous reconnaissez l'intérieur de la station de surveillance de Ceres.
 
@@ -41,9 +41,9 @@ S.S.S.S.SS
 Regardez la recherche de mots du petit Elf. Combien de fois fait-il XMASapparait-il?
 
 
-Réponse Partie 1 : 2554
+** Réponse Partie 1 : 2554
 
---- Deuxième partie ---
+* Deuxième partie 
 
 L'Elfe vous regarde par bizarrement. As-tu mal compris la mission ?
 
@@ -72,4 +72,4 @@ Dans cet exemple, un X-MAS apparaît 9 fois.
 
 Retournez le mot à partir des instructions à la partie suivante de la recherche de mots et essayez à nouveau. Combien de fois fait-il un X-MASapparait-il?
 
-Réponse Partie 2 : 1916
+** Réponse Partie 2 : 1916
